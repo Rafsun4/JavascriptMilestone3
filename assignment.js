@@ -1,7 +1,7 @@
 
 
 //feetToMile
-//return a warning if the value is negative
+//returns a warning if the value is negative
 
 function feetToMile(feet) {
     if(feet < 0) {
@@ -54,12 +54,13 @@ function brickCalculator(numberOfFloors) {
     return numberOfBricks;
 }
 
-var totalBricks = Math.abs(brickCalculator(1));
+var totalBricks = brickCalculator(1);
 console.log("Total Bricks:", totalBricks);
 
 
 
 //tinyFriend
+//Can't take empty strings
 
 function tinyFriend(names) {
     var shortString = names[0];
