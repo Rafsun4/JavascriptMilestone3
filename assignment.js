@@ -67,7 +67,7 @@ function tinyFriend(names) {
 
     for (var i = 1; i < names.length; i++) {
         var currentName = names[i];
-        if (currentName.length < shortString.length && currentName != ' ') {
+        if (currentName.length < shortString.length && currentName != 0) {
             shortString = currentName;             //This won't take empty strings as output                         
         }
     }
